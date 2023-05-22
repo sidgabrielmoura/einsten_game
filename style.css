@@ -4,7 +4,8 @@
     box-sizing: border-box;
   }
   body{
-    background-image: url(https://i.pinimg.com/474x/78/c4/48/78c44899ce4f1650bff129376564777a.jpg);
+    background-image: url(https://wallpaperaccess.com/full/893205.png);
+
   }
   main{
     width: 60vw;
@@ -41,7 +42,7 @@
     color: #000;
     background: #bb1f03;
   }
-  .block a{
+  a{
     font-size: 23px;
     text-decoration: none;
     color: aliceblue;
