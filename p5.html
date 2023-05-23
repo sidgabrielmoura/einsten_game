@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="p1.css">
     <title>Document</title>
+    <script src="vars.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <main>
@@ -18,10 +20,10 @@
                     matéria:</h1>
             </header>
             <div class="options">
-                <button>possui maior numero de neutrons que de protons</button>
-                <button>possui quantidades iguais de protons e eletrons</button>
-                <button>é constituída somente de prótons</button>
-                <button>é constituída somente de nêutrons</button>
+                <button class="resErr" onclick="errada()">possui maior numero de neutrons que de protons</button>
+                <button class="resCer" onclick="certa()">possui quantidades iguais de protons e eletrons</button>
+                <button class="resErr" onclick="errada()">é constituída somente de prótons</button>
+                <button class="resErr" onclick="errada()">é constituída somente de nêutrons</button>
             </div>
         </form>
         <a href="/index.html" class="back">voltar</a>

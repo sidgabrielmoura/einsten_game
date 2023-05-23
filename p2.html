@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="p1.css">
+    <script src="vars.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <main>
@@ -14,10 +16,10 @@
                 <h1>Qual os tipos de eletrizaçao?</h1>
             </header>
             <div class="options">
-                <button>induçao, contato, atrito</button>
-                <button>conducao, inducao, irradiaçao</button>
-                <button>conducao, atrito, irradiaçao</button>   
-                <button>contato, atrito, irradiaçao</button>
+                <button class="resCer" onclick="certa()">induçao, contato, atrito</button>
+                <button class="resErr" onclick="errada()">conducao, inducao, irradiaçao</button>
+                <button class="resErr" onclick="errada()">conducao, atrito, irradiaçao</button>   
+                <button class="resErr" onclick="errada()">contato, atrito, irradiaçao</button>
             </div>
         </form>
         <a href="/index.html" class="back">voltar</a>

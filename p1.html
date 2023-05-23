@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="p1.css">
+    <script src="vars.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <main>
@@ -17,11 +19,11 @@
                 <h1>Qual a formula da carga eletrica?</h1>
             </header>
             <div class="options">
-                <button>E=Q.F</button>
-                <button>Q=N.E</button>
-                <button>Q=C.U</button>
-                <button>F=K0.Q1.Q2/D</button>
-                <button>B.H/2</button>
+                <button class="resErr" onclick="errada()">E=Q.F</button>
+                <button class="resCer" onclick="certa()">Q=N.E</button>
+                <button class="resErr" onclick="errada()">Q=C.U</button>
+                <button class="resErr" onclick="errada()">F=K0.Q1.Q2/D</button>
+                <button class="resErr" onclick="errada()">B.H/2</button>
             </div>
         </form>
         <a href="/index.html" class="back">voltar</a>

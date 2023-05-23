@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="p1.css">
+    <script src="vars.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <main>
@@ -16,11 +18,11 @@
                     utilizado atrai pedaços de papel. Isto ocorre porque:</h1>
             </header>
             <div class="options">
-                <button>os pedaços de papel estavam eletrizados.</button>
-                <button>o papel é um bom condutor eletrico.</button>
-                <button>o pente se eletrizou por atrito.</button>   
-                <button> há atraçao gravitacional entre os pente e os pedaços de papel. </button>
-                <button>o pente é um bom condutor elétrico.</button>
+                <button class="resErr" onclick="errada()">os pedaços de papel estavam eletrizados.</button>
+                <button class="resErr" onclick="errada()">o papel é um bom condutor eletrico.</button>
+                <button class="resCer" onclick="certa()">o pente se eletrizou por atrito.</button>   
+                <button class="resErr" onclick="errada()"> há atraçao gravitacional entre os pente e os pedaços de papel. </button>
+                <button class="resErr" onclick="errada()">o pente é um bom condutor elétrico.</button>
             </div>
         </form>
         <a href="/index.html" class="back">voltar</a>

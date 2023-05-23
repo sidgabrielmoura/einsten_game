@@ -1,27 +1,59 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #212121;
 }
-h1{
+
+h1 {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
 }
-.bruxa{
+
+.bruxa {
     width: 100vw;
     height: 100vh;
     background-image: url(img/bruxa\ Halloween\ 21.gif);
     background-size: auto;
     background-repeat: no-repeat;
+    right: 135vw;
+    position: absolute;
+    animation: bruxa 6s linear infinite;
 }
+
 @keyframes bruxa {
-    0%{
-        
+    20% {
+        left: 0;
     }
+
+    40% {
+        left: 20%;
+    }
+
+    60% {
+        left: 40%;
+    }
+
+    80% {
+        left: 60%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.back {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    padding: 30px;
 }

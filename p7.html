@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="p1.css">
+    <script src="vars.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <main>
@@ -14,10 +16,10 @@
                 <h1>Qual dos elementos abaixo é particula elementar do átomo?</h1>
             </header>
             <div class="options">
-                <button>neutrinos</button>
-                <button>Ânions</button>
-                <button>Prótons</button>   
-                <button>hádrons</button>
+                <button class="resErr" onclick="errada()">neutrinos</button>
+                <button class="resErr" onclick="errada()">Ânions</button>
+                <button class="resCer" onclick="certa()">Prótons</button>   
+                <button class="resErr" onclick="errada()">hádrons</button>
             </div>
         </form>
         <a href="/index.html" class="back">voltar</a>
