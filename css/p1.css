@@ -51,3 +51,9 @@ form button:hover{
     top: 0;
     padding: 30px;
 }
+.error{
+    background-color: red;
+}
+.right{
+    background-color: green
+}
