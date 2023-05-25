@@ -1,3 +1,4 @@
+
 const erro = document.querySelector(".resErr1")
 const erro1 = document.querySelector(".resErr2")
 const erro2 = document.querySelector(".resErr3")

@@ -8,7 +8,7 @@ body{
     background-color: #212121;
 }
 
-form{
+section{
     width: 50vw;
     height: 50vh;
     position: absolute;
@@ -20,13 +20,14 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-form header{
+section header{
     background-color: rgb(62, 104, 184);
     padding: 30px;
     border-radius: 10px;
     color: aliceblue;
+    border: 1.5px solid black;
 }
-form button{
+section button{
     padding: 5px 10px;
     background-color: white;
     margin-top: 20px;
@@ -34,9 +35,15 @@ form button{
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+    transition: transform 0.5s;
 }
-form button:hover{
+section button:hover{
     background: rgb(207, 207, 207);
+    transform: scale(1.08);
+}
+section button:active{
+    background: #ccc;
+    transform: scale(1.05);
 }
 .options{
     display: flex;
@@ -44,6 +51,7 @@ form button:hover{
     width: 100%;
 }
 .back{
+
     color: aliceblue;
     text-decoration: none;
     font-size: 20px;
@@ -52,8 +60,8 @@ form button:hover{
     padding: 30px;
 }
 .error{
-    background-color: red;
+    background-color: #fd4029;
 }
 .right{
-    background-color: green
+    background-color: #60b84f;
 }
