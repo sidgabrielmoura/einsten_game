@@ -1,13 +1,9 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
 }
-body{
-    background-color: #212121;
-}
-
 section{
     width: 50vw;
     height: 50vh;
@@ -25,7 +21,6 @@ section header{
     padding: 30px;
     border-radius: 10px;
     color: aliceblue;
-    border: 1.5px solid black;
 }
 section button{
     padding: 5px 10px;
@@ -35,15 +30,9 @@ section button{
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
-    transition: transform 0.5s;
 }
 section button:hover{
     background: rgb(207, 207, 207);
-    transform: scale(1.08);
-}
-section button:active{
-    background: #ccc;
-    transform: scale(1.05);
 }
 .options{
     display: flex;
@@ -51,7 +40,6 @@ section button:active{
     width: 100%;
 }
 .back{
-
     color: aliceblue;
     text-decoration: none;
     font-size: 20px;
@@ -60,8 +48,29 @@ section button:active{
     padding: 30px;
 }
 .error{
-    background-color: #fd4029;
+    background-color: #fe0a03;
 }
 .right{
-    background-color: #60b84f;
+    background-color: #307d24;    
+}
+@keyframes hiding{
+    0%{
+        background-color: #fe0b037c;
+    }
+    25%{
+        background-color: #fe0b0388;
+    }
+    50%{
+        background-color: #fe0b03ab;
+    }
+    75%{
+        background-color: #fe0b03c5;
+    }
+    100%{
+        background-color: #fe0a03;
+    }
+}
+
+body{
+    background-color: #212121;
 }
