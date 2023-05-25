@@ -25,6 +25,7 @@ section header{
     padding: 30px;
     border-radius: 10px;
     color: aliceblue;
+    border: 1.5px solid black;
 }
 section button{
     padding: 5px 10px;
@@ -34,9 +35,15 @@ section button{
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+    transition: transform 0.5s;
 }
 section button:hover{
     background: rgb(207, 207, 207);
+    transform: scale(1.08);
+}
+section button:active{
+    background: #ccc;
+    transform: scale(1.05);
 }
 .options{
     display: flex;
@@ -44,6 +51,7 @@ section button:hover{
     width: 100%;
 }
 .back{
+
     color: aliceblue;
     text-decoration: none;
     font-size: 20px;
