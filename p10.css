@@ -19,9 +19,6 @@ h1 {
 .bruxa {
     width: 100vw;
     height: 100vh;
-    background-image: url(bruxa\ Halloween\ 21.gif);
-    background-size: auto;
-    background-repeat: no-repeat;
     right: 135vw;
     position: absolute;
     animation: bruxa 6s linear infinite;
