@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(https://wallpaperaccess.com/full/893205.png);
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/6371128-matematica-formula-e-fisica-formula-matematica-e-fisica-fundo-branco-linha-desenhada-mao-formula-e-formula-fisica-padrao-sem-emenda-simbolo-vetor.jpg);
 
 }
 main{
-  width: 60vw;
+  width: 40vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -37,10 +37,9 @@ main{
 }
 .block:hover{
   margin-top: 20px;
-  width: 15vw;
-  height: 25vh;
-  color: #000;
-  background: #bb1f03;
+  width: 10vw;
+  height: 20vh;
+  background: #bb1f03; 
 }
 a{
   font-size: 23px;
